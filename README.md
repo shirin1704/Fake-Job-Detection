@@ -13,6 +13,7 @@ This project builds a **binary classification model** that flags fraudulent job 
 Key features:
 
 * Combines **multiple datasets** to enhance data diversity
+  (https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction + https://www.kaggle.com/datasets/srisaisuhassanisetty/fake-job-postings)
 * Performs extensive **text preprocessing**
 * Uses an **LSTM-based neural network** for classification
 * Includes **threshold tuning** for optimal F1-score
@@ -75,20 +76,6 @@ Metrics evaluated:
 * Recall
 * F1-score
 * Threshold-adjusted performance
-
----
-
-## 📊 Model Performance
-
-After training with early stopping and tuning:
-
-* **Accuracy:** ~0.95
-* **Precision:** ~0.98
-* **Recall:** ~0.90
-* **Best Threshold:** ~0.91
-* **F1 Score:** ~0.95
-
-The model strongly identifies fake postings with high recall, while keeping false positives low via threshold selection.
 
 ---
 
