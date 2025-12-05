@@ -82,11 +82,11 @@ Metrics evaluated:
 
 After training with early stopping and tuning:
 
-* **Accuracy:** ~0.74
-* **Precision:** ~0.69
-* **Recall:** ~0.92
-* **Best Threshold:** ~0.4568
-* **F1 Score:** ~0.79
+* **Accuracy:** ~0.95
+* **Precision:** ~0.98
+* **Recall:** ~0.90
+* **Best Threshold:** ~0.91
+* **F1 Score:** ~0.95
 
 The model strongly identifies fake postings with high recall, while keeping false positives low via threshold selection.
 
